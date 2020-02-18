@@ -7,8 +7,7 @@ public class DivisionTest
 			this.firstOperand = firstOperand;
 			this.secondOperand = secondOperand;
     }
- 
-    //Setters and getters
+
  
 		public void performOperation() {
 			try{
@@ -18,6 +17,5 @@ public class DivisionTest
 			catch(ArithmeticException e){
 				System.out.println("Division by Zero");
 			}
-			//System.out.println(result);
 		}
 }
